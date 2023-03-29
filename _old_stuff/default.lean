@@ -1,6 +1,6 @@
 import system.io
 import .solvers.z3
-import .syntax
+import default.syntax
 import .builder
 import .tactic
 import .attributes

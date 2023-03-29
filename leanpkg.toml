@@ -1,8 +1,0 @@
-[package]
-name = "smt2_interface"
-version = "0.1"
-lean_version = "3.4.2"
-path = "src"
-
-[dependencies]
-
