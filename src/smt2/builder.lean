@@ -22,6 +22,8 @@ namespace Builder
 def sort.bool : sort := "Bool"
 def sort.int : sort := "Int"
 def sort.array (dom cod : sort) : sort := sort.apply "Array" [dom, cod]
+def sort.set   (dom : sort) : sort := sort.apply "Set" [dom]
+
 
 def equals (t u : term) : term :=
 term.apply "=" [t, u]
